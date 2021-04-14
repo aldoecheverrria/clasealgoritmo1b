@@ -44,6 +44,7 @@ function App() {
                 <Reto1/>
                 <h1>Reto 2</h1>
                 <Reto2/>
+                
               </div>
             </article>
           </section>
