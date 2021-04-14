@@ -1,6 +1,5 @@
-
 import './App.css';
-import Reto1 from './Reto1';
+import Reto1 from './Reto1'
 
 function App() {
   return (
