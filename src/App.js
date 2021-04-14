@@ -1,5 +1,6 @@
 import './App.css';
 import Reto1 from './Reto1'
+import Reto2 from './Reto2';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
                 <h1>Reto 1</h1>
                 <Reto1/>
                 <h1>Reto 2</h1>
+                <Reto2/>
               </div>
             </article>
           </section>

@@ -1,10 +1,9 @@
 import React from 'react'
 
-export default function Reto1() {
-
+export default function Reto2() {
     const crearElementos = (n=40) => {
         const elementos = [];
-        for (let i=0; i<n; i++) {
+        for (let i=0; i<n; i=i+2) {
             elementos.push(<div>{i} - como elemento</div>)
         }
         return elementos;
