@@ -12,7 +12,9 @@ export default function Reto1() {
 
     return (
         <div>
+            <h1>Print numbers with an increment</h1>
          {crearElementos(20)}
+         <hr/>
         </div>
         
     )

@@ -1,3 +1,61 @@
 * {
   margin: 0;
 }
+
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+}
+
+.app__body {
+  display: flex;
+  background-color: #ededed;
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.index__module--header {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+  border-right: 1px solid lightgrey;
+}
+
+.index__module--content {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+h2 {
+  color: red;
+  font-size: 55;
+}
+
+span {
+  font-weight: 900;
+}
+
+@media screen and (min-width: 500px) {
+  .index__module--header {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .index__module--header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .index__module--header {
+    font-size: 2rem;
+  }
+}
