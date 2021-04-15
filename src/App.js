@@ -1,7 +1,8 @@
 import './App.css';
-import Reto1 from './Reto1'
-import Reto2 from './Reto2';
-import Reto3 from './Reto3';
+import Reto1 from './Challenges/Reto1'
+import Reto2 from './Challenges/Reto2';
+import Reto3 from './Challenges/Reto3';
+import Reto4 from './Challenges/Reto4';
 
 function App() {
   return (
@@ -36,8 +37,8 @@ function App() {
           <section>
             <article className="index__module--article">
               <header>
-                <h2>Print numbers increasingly</h2>
-                <p>We need to print numbers from one to twenty</p>
+                <h2>Here is a list of all the challenges</h2>
+                <p>Instructions: read the instructions carefully and try to type the code that solves the challenge in the TextArea</p>
               </header>
               
               <div className="index__module--solution">
@@ -47,6 +48,8 @@ function App() {
                 <Reto2/>
                 <h1>Reto 3</h1>
                 <Reto3/>
+                <h1>Reto 4</h1>
+                <Reto4/>
               </div>
             </article>
           </section>
