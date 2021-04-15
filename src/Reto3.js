@@ -1,21 +1,18 @@
 import React from 'react'
 
-export default function Reto1() {
-
-    
-
-    const crearElementos = (n=40) => {
+export default function Reto3() {
+    const crearElementos = (n=10) => {
         const elementos = [];
-        for (let i=0; i<=n; i++) {
-            elementos.push(<div>//Element {i}</div>)
+        for (let i=1; i<=n; i++) {
+            elementos.push(<div>9 x {i} = {9 * i}//</div>)
         }
         return elementos;
     }
 
     return (
-        <div className="app__wrapper">
-            <h2>Print numbers with an increment</h2>
-         <span >{crearElementos(20)}</span>
+        <div>
+            <h1>Print table number 9: </h1>
+         <span>{crearElementos(10)} </span>
          <p>Type your JSX answer. Click the "Compare" button to see the JSX answer</p>
          <textarea/>
          <br/>

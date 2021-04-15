@@ -1,6 +1,7 @@
 import './App.css';
 import Reto1 from './Reto1'
 import Reto2 from './Reto2';
+import Reto3 from './Reto3';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <div className="app__body">
         <header className="index__module--header">
           <hgroup >
-          <h2><span>Test</span> <span>Your</span> <span>Skills</span></h2>
+          <h2>Test Your Skills</h2>
           </hgroup>
           <hr/>
           <div className="index__module--interior">
@@ -44,7 +45,8 @@ function App() {
                 <Reto1/>
                 <h1>Reto 2</h1>
                 <Reto2/>
-                
+                <h1>Reto 3</h1>
+                <Reto3/>
               </div>
             </article>
           </section>

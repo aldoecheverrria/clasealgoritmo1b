@@ -39,7 +39,8 @@ h2 {
 }
 
 span {
-  font-weight: 900;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 500px) {
