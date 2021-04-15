@@ -5,6 +5,9 @@ import Reto3 from './Challenges/Reto3';
 import Reto4 from './Challenges/Reto4';
 import Reto5 from './Challenges/Reto5';
 import Reto6 from './Challenges/Reto6';
+import Reto7 from './Challenges/Reto7';
+import Reto8 from './Challenges/Reto8';
+import Reto9 from './Challenges/Reto9';
 
 function App() {
   return (
@@ -57,6 +60,12 @@ function App() {
                 <Reto5/>
                 <h1>Challenge 6</h1>
                 <Reto6/>
+                <h1>Challenge 7</h1>
+                <Reto7/>
+                <h1>Challenge 8</h1>
+                <Reto8/>
+                <h1>Challenge 9</h1>
+                <Reto9/>
               </div>
             </article>
           </section>
