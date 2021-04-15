@@ -3,6 +3,8 @@ import Reto1 from './Challenges/Reto1'
 import Reto2 from './Challenges/Reto2';
 import Reto3 from './Challenges/Reto3';
 import Reto4 from './Challenges/Reto4';
+import Reto5 from './Challenges/Reto5';
+import Reto6 from './Challenges/Reto6';
 
 function App() {
   return (
@@ -42,14 +44,19 @@ function App() {
               </header>
               
               <div className="index__module--solution">
-                <h1>Reto 1</h1>
+                <br/>
+                <h1>Challenge 1</h1>
                 <Reto1/>
-                <h1>Reto 2</h1>
+                <h1>Challenge 2</h1>
                 <Reto2/>
-                <h1>Reto 3</h1>
+                <h1>Challenge 3</h1>
                 <Reto3/>
-                <h1>Reto 4</h1>
+                <h1>Challenge 4</h1>
                 <Reto4/>
+                <h1>Challenge 5</h1>
+                <Reto5/>
+                <h1>Challenge 6</h1>
+                <Reto6/>
               </div>
             </article>
           </section>
