@@ -19,17 +19,17 @@ function App() {
           </hgroup>
           <hr/>
           <div className="index__module--interior">
-          <p>Test your skills with an increasing levels of challenge with this website (with academic goals only)</p>
+          <p>Test your JSX skills with an increasing levels of challenge with this website (academic goals only)</p>
           <hr/>
           <p>This page is a collection of ReactJS challenge's. At is core, 
             we see JavaScript lying at the bottom, and thats good. Leave
-            a thumbs up if you like it. Inspired on Hackernoon and the book "Let Us C"
+            a thumbs up if you like the challenge, or send your comments about it!. Inspired on Hackernoon and the book "Let Us C"
           </p>
           <hr/>
           <nav className="index__module--navigation">
-            <a>See more solutions on YouTube</a>
-            <a>Suggest a challenge</a>
-            <a>Get updates</a>
+            <a>See more solutions on the YouTube</a>
+            <a>Suggest a new challenge</a>
+            <a>Get update's</a>
             <a>Contact me</a>
           </nav>
         </div>
